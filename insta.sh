@@ -2,7 +2,6 @@ echo Otimização do sistema operacional !
 sleep 5
 apt-get autoremove --purge polari -y
 apt-get autoremove --purge rhythmbox -y
-apt-get autoremove --purge thunderbird * -y
 
 echo Limpando o Sistema ! 
 sleep 3
@@ -30,7 +29,7 @@ echo Atualizando o sistema apos a instalação dos pacotes
 sleep 5
 echo ... 
 apt-get update -y 
-apt-get upgrade
+apt-get upgrade -y 
 
 
  echo Limpando o Sistema ! 
